@@ -1,20 +1,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <style>
-    .nav {background-color: #e79fc4 !important;}
+    .nav {background-color: #e79fc4 !important; padding: 1%}
     .nav-link {color: white !important;}
-    .nav-link.active {background-color: white !important; color: #e79fc4 !important; border-radius: 0;}
+    .nav-link.active {background-color: white !important; color: #e79fc4 !important;}
 </style>
 
 <header>
     <nav class="nav nav-pills ">
         <li class="nav-item">
-            <a {% if page.relative_path == '/' %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="/">Home</a>
+            <a {% if page.title == 'Jake Fawcett' %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="/">Home</a>
         </li>
         <li class="nav-item">
-            <a {% if page.relative_path == '/cv/' %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="/cv/">CV</a>   
+            <a {% if page.title == 'CV' %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="/cv/">CV</a>   
         </li>
         <li class="nav-item">
-            <a {% if page.relative_path == '/blog/' %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="/blog/">Blog</a>
+            <a {% if page.title == 'Blog' %}class="nav-link active"{% else %}class="nav-link"{% endif %} href="/blog/">Blog</a>
         </li>
     </nav>
 </header>
