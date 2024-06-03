@@ -1,3 +1,3 @@
 # jake-fawcett.github.io-resources
 
-General Resources for Personal Site and Blog used as a Submodule within [jake-fawcett.github.io](https://github.com/jake-fawcett/jake-fawcett.github.io/blob/main/README.md) and [blog](https://github.com/jake-fawcett/blog)
+Common Resource usbmodule for Github Pages site for website [jakef.dev](www.jakef.dev) (jake-fawcett.github.io), made with [jake-fawcett.github.io](https://github.com/jake-fawcett/jake-fawcett.github.io) and [blog](https://github.com/jake-fawcett/blog).
